@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Imagem</title>
+    <style>
+        img {
+            max-width: 500px; /* Limita o tamanho da imagem */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mude a Imagem!</h1>
+
+    <img id="imagem-aleatoria" src="caminho-para-sua-imagem-inicial.jpg" alt="Imagem que será alterada">
+
+    <button onclick="mudarImagem()">Mudar Imagem</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

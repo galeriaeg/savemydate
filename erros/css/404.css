@@ -1,0 +1,75 @@
+body{
+	font-family:calibri, arial, verdana;
+	background-image:url('../../img/bggeral.png');
+	background-repeat:repeat-x;
+	background-color:#F5F5F5; /*#EDEFF5;*/
+}
+
+.main{
+	width:100%;
+	/*background-color:blue;*/
+	height:55px;
+	margin:0 auto;
+	display:block;
+}
+
+.divCenter {
+	max-width: 478px;
+	width:calc(100% - 50px);
+	height: auto;
+	padding: 20px;
+	margin: 0 auto;
+	position: absolute;
+	transform: translate(-50%, 0);
+	z-index: 1;
+	top: 20%;
+	left: 50%;
+	color:#575c6d;
+	text-align:center;
+}
+
+.a_btn{
+	width:100%;
+	padding:8px 30px;
+	background:#696979;
+	border-radius:4px;
+	color:#FFF;
+	text-decoration:none;
+}
+.a_btn:hover{
+	background:#565B66;
+	color:#FFF;
+}
+
+.divCenter img{
+	width:70px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+.divCenter span img{
+	width:143px;
+	margin:0 auto;
+	margin-top:35px;
+}
+
+h5{
+	font-size:18px;
+	font-family:calibri, arial, verdana;
+	line-height:25px;
+}	
+h4{
+	font-size:22px;
+	font-family:calibri, arial, verdana;
+	line-height:28px;
+}
+h2{
+	font-size:2em;
+	font-family:calibri, arial, verdana;
+	line-height:28px;
+}
+
+
+p{
+	margin:40px 0;
+}

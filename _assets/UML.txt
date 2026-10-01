@@ -1,0 +1,87 @@
+MOD CLIENTE/app
+-----------
+-FAZ LOGIN
+-RECUPERA SENHA
+-LISTA CONVIDADOS
+-CONSULTA PAGAMENTO
+-FAZ LOGOUT
+
+
+-----------------------------------
+MOD ADMIN
+-----------------------------------
+-FAZ LOGIN
+-CADASTRA CLIENTE
+-CADASTRA PAGAMENTO
+-CADASTRA A DATA/EVENTO
+-FAZ LOGOUT
+
+
+--------------
+MOD CONVIDADO
+--------------
+-CONFIRMA PRESENÇA/ cadastro- ok
+
+
+--------------
+TABELAS
+--------------
+
+TAB_USUARIO:
+-id
+-nome
+-cpf
+-email
+-senha
+-telefone
+-dataCadastro
+-tipo
+-status
+
+TAB_CONVIDADO
+-id
+-nome
+-celular
+-dataCadastro
+-chave
+
+TAB_MINHA_DATA
+-id
+-idUsuario
+-chave
+-aniversariante
+-data
+-comemoracao
+-local
+-mapa
+-anexo
+-url_instagram
+-url_facebook
+-url_tiktok
+
+TAB_PAGAMENTO
+-id
+-preco
+-status
+-dataPagamento
+-id_usuario
+-id_evento
+
+
+------------------
+Regras de negocio:
+-------------------
+paga por mes R$ 98,00
+Se o contrato é fechado em agosto e o evento será em dezembro, então serão 4 meses de pagameto.
+de agosto a dezembro sao 4 meses
+
+
+
+
+---------------------
+banco online:postgree
+---------------------
+banco: galeriae_save_date_db	
+user:galeriae_save_master
+pass:HseV*Da-25
+148.113.211.197
